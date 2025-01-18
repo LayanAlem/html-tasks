@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #car-engine{
+            border: 1px solid black;
+            padding-left: 15px;
+        }
+        #car-interior {
+            border: 1px solid black;
+            padding-left: 15px;
+        }
+        .h1{
+            text-align:center;
+            
+        }
+        #Meet-Jack{
+            border: 1px solid black;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .hlink{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p><b>Unordered List:</b></p>
+    <ul>
+        <li>Coffe</li>
+        <li>Tea</li>
+            <ul>
+                <li>Green Tea</li>
+                <li>Black Tea</li>
+            </ul>
+        <li>Orange Juice</li>    
+    </ul>
+
+    <p><b>Ordered List</b></p>
+    <ol>
+        <li>Pizza</li>
+        <li>BBQ</li>
+            <ol>
+                <li>Burger</li>
+                <li>Chicken</li>
+            </ol>
+        <li>Ice Cream</li>
+    </ol>
+
+    <p><b>Discription List</b></p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Is a markup language</dd>
+        <dt>Java</dt>
+        <dd>Is a programming language and platform</dd>
+        <dt>JavaScript</dt>
+        <dd>Is a scripting language</dd>
+        <dt>SQL</dt>
+        <dd>Is a query language</dd>
+    </dl>
+    
+    <div id="car-engine">
+    <h3>Car Engine</h3>
+        <img src="/Images/Car Engine.jpg" alt="Car Engine" width="200px" height="200px">
+  
+        <p>This is a paragraph about the car engine. It talks about the specifications and features of the engine.</p>
+        <ul>
+            <li>Engine displacement</li>
+            <li>Horsepower</li>
+            <li>Fuel efficiency</li>
+        </ul>
+    </div>
+    <br>
+    <div id="car-interior">
+        <h3>Car Interior</h3>
+        <img src="/Images/Car Interior.jpg" alt="Car Interior" width="200px" height="128px">
+        <p>This is a paragragh about the car interior. It discusses the comfort, desigh and technical inside the car.</p>
+        <ol>
+            <li>Leather seats</li>
+            <li>Infotainment system</li>
+            <li>Climate control</li>
+        </ol>
+
+    </div>
+    <br><br><br><br><br><br>
+
+    <div id="Meet-Jack">
+        <h1 class="h1"><i>Meet Jack</i></h1>
+        <img class="center" src="/Images/Meet Jack.avif" alt="n animated man holding a box" width="100" height="200"> 
+        <p> This is Jack. He's an odd little boy that just got an empty box for his birthday. He may <i>look</i> happy, but he's a <i>little</i> disappointed. Now he'll have to put a few things in the box.</p>
+        <p>Jack would really like...</p>
+        <ul>
+            <li>Roller blades</li>
+            <li>Magic tricks</li>
+            <li>Anything Pokemon</li>
+            <li>A motorized Lego set</li>
+        </ul>
+        <p>You can get all this (and more) at an online toy
+            store. Two very popular ones are <u class="hlink">toysrus.com</u> and <u class="hlink">eToys.</u></p>
+        <hr>
+        <p class="text-center" style="margin: 1%;"> &copy; 2006 <u class="hlink">John Q. Webmaster.</u> All rights reserved.</p>
+            
+    </div>
+    <br><br><br><br><br>
+    <h2>Table</h2>
+    <table>
+        <tr>
+            <td><b>First Name</b></td>
+            <td><b>Last Name</b></td>
+            <td><b>City</b></td>
+        </tr>
+        <tr>
+            <td>Sanna</td>
+            <td>Danne</td>
+            <td>54</td>
+        </tr>
+        <tr>
+            <td>Aramas</td>
+            <td>Hildimar</td>
+            <td>44</td>
+        </tr>
+        <tr>
+            <td>Maksim</td>
+            <td>Omolara</td>
+            <td>38</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Tea</li>
+        <ul>
+            <li>Green Tea</li>
+        </ul>
+        <li>Banana</li>
+    </ul>
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Pizza</li>
+        <li>BBQ</li>
+        <ol>
+            <li>Burgers</li>
+        </ol>
+        <li>Ice Cream</li>
+    </ol>
+    <h2>Definition List</h2>
+    <dl>
+        <dt>Home</dt>
+        <dd>A home, or a domicile, is a living space used as a permanent or semi-permanent residence for an individual, family, household or several families in a tribe.</dd>
+        <dt>Building</dt>
+        <dd>A building, or edifice, is a structure with a roof and walls standing more or less permanently in one placem such as a house or factory.</dd>
+    </dl>
+    <form action="action_page.php">
+    <label for="know">Choose what you already know?</label>
+    <select name="know" id="know">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JS">JS</option>
+        <option value="PHP">PHP</option>
+    </select>
+    </form>
+<br><br>
+<h2>Nested List</h2>
+<ol>
+    <li>Web Designing Tools</li>
+    <ol>
+        <li>HTML</li>
+        <ol>
+            <li>HTML 4</li>
+            <li>HTML 5</li>
+        </ol>
+        <li>CSS</li>
+        <ol>
+            <li>CSS 1.0 in 17 December 1996 by Hakon Wium Lie and Bert Bos</li>
+            <li>CSS 2.0 in May 1998</li>
+            <li>CSS 2.1 in 7 june 2011</li>
+            <li>CSS 3.0 in June 2012</li>
+        </ol>
+        <li>JavaScript</li>
+        <li>Responsive in 19 June 2012</li>
+    </ol>
+    <li>Web Development Tools</li>
+    <ol>
+        <li>PHP</li>
+        <li>Net</li>
+        <ol>
+            <li>C#.Net</li>
+            <li>VB.Net</li>
+            <li>ASP.Net</li>
+        </ol>
+        <li>JSP</li>
+    </ol>
+</ol>
+<br><br><br><br><br>
+<h1>Text Formats</h1>
+<h3>Article Text</h3>
+<h2>Article Title</h2>
+<h4>Article description</h4>
+<h5>Performatted text</h5>
+<h6>Preformatted text</h6>
+<br>
+<div style="font-family: monospace; font-size: large;">
+    <b>what</b><br> is <b>going</b> on <br>with the <br><i>test?</i>
+</div>
+
+<h3>Code</h3>
+<p style="font-family: monospace;">.container { <br>display: flex; <br>justify-content: center; <br>backround-color: red; <br>}</p>
+<hr>
+<h3>Blockquotes</h3>
+<blockquote>
+    “Nothing will work unless you do” <br>
+    <a href="https://www.positivitysparkles.com/quote/nothing-will-work-unless-maya-angelou/">Maya Angelou</a>
+</blockquote>
+<br><br><br>
+<h2>Inline & Block</h2>
+<fieldset>
+    <legend>
+        Using Block(paragraph, unordered list)
+    </legend>
+    <p> <mark>Sports is a large global business.</mark><br>
+        <u>Billions of dollars</u> are spent at sporting events, on sports teams, on sports events, as well as on sports-related equipment and apparel. This guide is devoted to those sports that are the largest in terms of monies at the professional level and as a result, not every sport is included. The primary focus is on the professional sports industry in the United States although there are a few instances in which the international aspects of the industry are mentioned. Because of the focus on professional sports, the Olympics and amateur events are not included.</p>
+        <ul>
+            <li>Cricket</li>
+            <li>Soccer</li>
+            <li>Volleyball</li>
+            <li>Baseball</li>
+            <li>Basketball</li>
+            <li>Boxing</li>
+            <li>Golf Badminton</li>
+            <li>Table tennis</li>
+        </ul>
+</fieldset>
+<fieldset>
+    <legend>Using inline(span.img)</legend>
+    <p><b>What is a healthy diet?</b><br>Eating a healthy diet is not about strict limitations, staying unrealistically thin, or depriving yourself of the food you love. Rather, it's about feeling great, having more energy, improving your health and boosting your mood.</p>
+    <img src="/Images/Healthy.jpg" alt="Healthy" width="200" height="120">
+    <img src="/Images/healthy Food.avif" alt="Healthy Food" width="200" height="120">
+    <p>What some extreme diets</p>
+</fieldset>
+
+
+
+</body>
+</html>
